@@ -17,7 +17,7 @@ os clientes filtram as empresas, via estado e cidade, e itens que desejam descar
 
 * server
 
- - No arquivo src/controllers/ItemsController.ts - linha 13 - altere a o **IP na url**(192.168.15.35) para o IPV4 da sua máquina.
+  - No arquivo src/controllers/ItemsController.ts - linha 13 - altere a o **IP na url**(192.168.15.35) para o IPV4 da sua máquina.
 Exemplo:
 
 ```
@@ -28,7 +28,7 @@ image_url: `http://192.168.15.35:3333/uploads/${item.image}`,
 image_url: `http://192.168.1.1:3333/uploads/${item.image}`,
 ```
 
- - Faça o mesmo em src/controllers/PointsController.ts - linha 25
+  - Faça o mesmo em src/controllers/PointsController.ts - linha 25
 Exemplo:
  
 ```
@@ -39,7 +39,7 @@ image_url: `http://192.168.15.35:3333/uploads/${item.image}`,
 image_url: `http://192.168.1.1:3333/uploads/${item.image}`,
 ```
 
- - No seu terminal, dentro do diretório server, utilize os seguintes comandos:
+  - No seu terminal, dentro do diretório server, utilize os seguintes comandos:
  
 ```
 //Para instalar as dependências necessárias
@@ -51,7 +51,7 @@ npm run dev
  
 * web
 
- - Abra outro terminal, dentro do diretório web, utilize os seguintes comandos:
+  - Abra outro terminal, dentro do diretório web, utilize os seguintes comandos:
  
 ```
 //Para instalar as dependências necessárias
@@ -63,7 +63,7 @@ npm start
 
 * mobile
 
- - No arquivo src/services/api.ts - linha 5 - altere a o **IP na url**(192.168.15.35) para o IPV4 da sua máquina.
+  - No arquivo src/services/api.ts - linha 5 - altere a o **IP na url**(192.168.15.35) para o IPV4 da sua máquina.
 Exemplo:
 
 ```
@@ -74,7 +74,7 @@ Exemplo:
     baseURL: 'http://192.168.1.1:3333',
 ```
 
- - Abra outro terminal, dentro do diretório web, utilize os seguintes comandos:
+  - Abra outro terminal, dentro do diretório web, utilize os seguintes comandos:
  
 ```
 //Para instalar as dependências necessárias
@@ -83,6 +83,6 @@ npm install
 //Para criar um servidor do expo
 expo start
 ```
- - Instale o Expo gratuitamente em seu Android ou IOS para escanear o QRCode que será criado ao executar o comando "expo start"
+  - Instale o Expo gratuitamente em seu Android ou IOS para escanear o QRCode que será criado ao executar o comando "expo start"
  
  
