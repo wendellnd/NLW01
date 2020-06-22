@@ -1,5 +1,5 @@
 # NLW01
-  Projeto desenvolvido durante a Next Level Week #01 para fins de estudo.
+  Projeto desenvolvido durante a Next Level Week #01, da Rocketseat, para fins de estudo.
   
   
 * Techs:
