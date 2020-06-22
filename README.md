@@ -42,10 +42,10 @@ image_url: `http://192.168.1.1:3333/uploads/${item.image}`,
   3) No seu terminal, dentro do diretório server, utilize os seguintes comandos:
  
 ```
-//Para instalar as dependências necessárias
+// Para instalar as dependências necessárias
 npm install
  
-//Para inicializar o servidor
+// Para inicializar o servidor
 npm run dev
 ```
  
@@ -54,10 +54,10 @@ npm run dev
   1) Abra outro terminal, dentro do diretório web, utilize os seguintes comandos:
  
 ```
-//Para instalar as dependências necessárias
+// Para instalar as dependências necessárias
 npm install
 
-//Para abrir o site em em uma porta de seu servidor local
+// Para abrir o site em em uma porta de seu servidor local
 npm start
 ```
 
@@ -77,10 +77,10 @@ Exemplo:
   2) Abra outro terminal, dentro do diretório web, utilize os seguintes comandos:
  
 ```
-//Para instalar as dependências necessárias
+// Para instalar as dependências necessárias
 npm install
 
-//Para criar um servidor do expo
+// Para criar um servidor do expo
 expo start
 ```
   3) Instale o Expo gratuitamente em seu Android ou IOS para escanear o QRCode que será criado ao executar o comando "expo start"
