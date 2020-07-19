@@ -17,23 +17,23 @@ os clientes filtram as empresas, via estado e cidade, e itens que desejam descar
 
 * server
 
-  1) No arquivo src/controllers/ItemsController.ts - linha 13 - altere a o **IP na url**(192.168.15.35) para o IPV4 da sua máquina.
+  1) No arquivo src/controllers/ItemsController.ts - linha 13 - altere a o **IP na url**(192.168.0.0) para o IPV4 da sua máquina.
 Exemplo:
 
 ```
 // Encontrará a linha desta forma
-image_url: `http://192.168.15.35:3333/uploads/${item.image}`,
+image_url: `http://192.168.0.0:3333/uploads/${item.image}`,
 
 // Se o IPV4 da sua máquina fosse 192.168.1.1
 image_url: `http://192.168.1.1:3333/uploads/${item.image}`,
 ```
 
-  2) Faça o mesmo em src/controllers/PointsController.ts - linha 25
+  2) Faça o mesmo em src/controllers/PointsController.ts - linha 25 e 43.
 Exemplo:
  
 ```
 // Encontrará a linha desta forma
-image_url: `http://192.168.15.35:3333/uploads/${item.image}`,
+image_url: `http://192.168.0.0:3333/uploads/${item.image}`,
 
 // Se o IPV4 da sua máquina fosse 192.168.1.1
 image_url: `http://192.168.1.1:3333/uploads/${item.image}`,
@@ -63,12 +63,12 @@ npm start
 
 * mobile
 
-  1) No arquivo src/services/api.ts - linha 5 - altere a o **IP na url**(192.168.15.35) para o IPV4 da sua máquina.
+  1) No arquivo src/services/api.ts - linha 5 - altere a o **IP na url**(192.168.0.0) para o IPV4 da sua máquina.
 Exemplo:
 
 ```
 // Encontrará a linha desta forma
-    baseURL: 'http://192.168.15.35:3333',
+    baseURL: 'http://192.168.0.0:3333',
 
 // Se o IPV4 da sua máquina fosse 192.168.1.1
     baseURL: 'http://192.168.1.1:3333',
